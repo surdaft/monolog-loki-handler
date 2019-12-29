@@ -1,0 +1,29 @@
+{
+    "name": "er1z/monolog-loki-handler",
+    "description": "Monolog handler to publish events directly to Loki",
+    "type": "library",
+    "keywords": [
+        "monolog",
+        "loki",
+        "log",
+        "logging"
+    ],
+    "require": {
+        "monolog/monolog": "^2.0",
+        "php": "^7.2",
+		"ext-json": "*",
+		"ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Er1z\\MonologLokiHandler\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Przemyslaw eRIZ Pawliczuk",
+            "email": "przemyslaw.pawliczuk@h2p.pl"
+        }
+    ]
+}
