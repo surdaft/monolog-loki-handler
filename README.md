@@ -1,3 +1,8 @@
+**Note:**
+I want to make this work for Symfony 2.4.18 using an older version of monolog. This means moving from a php7.2 dependency as well as using a monolog 1.25.
+
+---
+
 # monolog-loki-handler
 Monolog handler to publish events directly to Loki.
 
